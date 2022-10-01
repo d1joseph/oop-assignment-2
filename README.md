@@ -1,2 +1,2 @@
-# oop-assignment-2
-A travel booking system written in C++
+# What is this?
+A univeristy project. I wrote an object oriented implementation of a travel booking algorithm written in C++.
