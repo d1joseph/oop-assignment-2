@@ -13,16 +13,16 @@
 
 using namespace std;
 
-#include "Constants.h"
-#include "Ticket.h"
-#include "GameTicket.h"
-#include "FlightTicket.h"
-#include "HotelVoucher.h"
-#include "CustomerRequirement.h"
-#include "Package.h"
-#include "BookingSystem.h"
-#include "RequirementCreator.h"
-#include "SmartBookingSystem.h"
+#include "../include/Constants.h"
+#include "../include/Ticket.h"
+#include "../include/GameTicket.h"
+#include "../include/FlightTicket.h"
+#include "../include/HotelVoucher.h"
+#include "../include/CustomerRequirement.h"
+#include "../include/Package.h"
+#include "../include/BookingSystem.h"
+#include "../include/RequirementCreator.h"
+#include "../include/SmartBookingSystem.h"
 
 #ifndef BookingSystem_CPP_
 #define BookingSystem_CPP_
