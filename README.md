@@ -23,5 +23,13 @@ There are some constants and variables we need to also consider in this problem:
 * GAME_TICKETS there are 15 games played across 10 days, see below table for ticket prices and quotas:
 [add game tickets table]
 
+# Task
+Implement a booking system to create and sell travel packages to potential clients. Using the `requirements.txt` file, the system
+will try to find a feasible package for each customer based on the availability of hotel rooms, game tickets and customer's budget.
+
+If a feasible package cannot be found for a client, indicate the requirement is rejected. 
+
+Finally, the system should aim for profit maximization.
+
 # Implementations
 ???
