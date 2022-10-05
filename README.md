@@ -32,4 +32,4 @@ If a feasible package cannot be found for a client, indicate the requirement is 
 Finally, the system should aim for profit maximization.
 
 # Implementations
-???
+* `BookingSystem` class will read/write text files. It will read in `requirements.txt` and unpack the data into `CustomerRequirement` objects, finally, we'll need a dynamic array to store the objects since the length of `requirements.txt` can vary. Once the unpacked data has been processed, `BookingSystem` will also output a report of package sales and rejected requirements. `BookingSystem` will be a base class that is extended by `SmartBookingSystem` to achieve profit maximization later.
