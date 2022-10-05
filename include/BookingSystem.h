@@ -4,24 +4,20 @@
 class BookingSystem 
 {
 private:
-    // init a dynamic array of CustomerRequirement
-    static int LENGTH;
-    CustomerRequirement* rqPtr = new Requirements[LENGTH];
+    // init a dynamic array of CustomerRequirement objects
+    
 public:
     // ctor
-    BookingSystem()
-    {
-        LENGTH = 1;
-    };
+    BookingSystem() {};
     // dtor
     ~BookingSystem() {};
     
     // Read in requirement
-    void ReadIn(string); // Reads in a line from 'requirements.txt'
+    void ReadIn(string){}; // Reads in a line from 'requirements.txt'
     // Maps the requirements.txt line data to an object instance, and pushes it to Requirements
-    void CreateRequirements();
+    void CreateRequirements(){};
     /* Evaluates the requirements of each CustomerRequirement object and allocates
      a packaged based variables*/
-    void ProcessRequirements();
+    void ProcessRequirements(){};
 }
 #endif /* BOOKINGSYSTEM_H_ */
